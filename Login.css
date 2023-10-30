@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgb(0,0,0);
+    color: #fefefe;
+}
+
+a{
+    color: #b8b5b5;
+    font-weight: bolder;
+    text-decoration: none;    
+}
+
+.LR a{
+    font-size: 0.9em;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(27, 25, 25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #6a0994;
+    padding: 30px 30px;
+    font-size: 1.6em;
+}
+
+.head{
+    display: flex;
+}
+
+.back{
+    display: flex;
+    text-transform: lowercase;
+    line-height: 45px;
+}
+
+
+i {
+    color: #6a0994 ;
+}
+
+.logo{
+    display: inline-flex;
+    font-size: 50px;
+    /*position: relative;
+    left: 45%; */
+    font-family: 'EXEPixelPerfect';   
+}
+
+@font-face{
+    font-family: 'EXEPixelPerfect' ;
+    src: url(EXEPixelPerfect.ttf);
+}
+
+/* Area de Login */
+
+.container{
+    display: flex;
+    margin-top: 70px;
+    position: relative;
+    border: 1px solid #6a0994;
+    background-color: rgb(27, 25, 25);
+    width: 35%;
+    height: auto;
+    left: 32%;
+    align-items: center;
+}
+
+.login h1{
+    padding: 0px 50px 30px 65px;
+}
+
+.login{
+    display: block;
+}
+
+form{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-left: px;
+}
+
+input {
+    display: block;
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #b8b5b5;
+}
+
+.check{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    
+}
+
+.checkbox {
+    font-size: 1.2em;
+    margin-left: 15px;
+    color: #948d8d;
+}
+
+button{
+    margin-left: 15px;
+    margin-top: 15px ;
+    display: block;
+    box-shadow: rgb(27, 25, 25);
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #6a0994;
+    color: #fff;
+
+}
+
+.registro {
+    position: relative;
+    left: 17%;
+    top: 20px;
+}
+
+.registro h1{
+    padding: 25px 0px 30px 0px;
+    position: relative;
+    left: 20%;
+    top: 20px
+}
+
+.email{
+    width: 200px;
+    display: inline-block;
+}
+
+label{
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+.linha-vertical{
+    position: relative;
+    right: 25%;
+    height: 350px;
+    border-left: 2px solid;
+    box-sizing: border-box;
+    color: #222121;
+}

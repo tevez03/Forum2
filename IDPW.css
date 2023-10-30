@@ -99,6 +99,12 @@ h1{
         height: 1px;
         background-image: linear-gradient(to right, rgba(190, 190, 190, 0), rgba(255, 255, 255, 0.75), rgba(190, 190, 190, 0));
     }
+
+    #login-botao{
+        font-size: 12px;
+        padding-bottom: 10px;
+        bottom: 200px;
+    }
     
 }
 
@@ -129,12 +135,21 @@ h1{
     h1{
         font-size: 18px;
     }
+
+    #login-botao{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
 }
 
 /* nav */
 
 header{
     margin-inline: 10px;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
 
 .navbar{
@@ -586,4 +601,25 @@ hr{
     .img-logo img{
         width: 320px;
     }
+}
+
+/* botão login */
+
+#login-botao{
+    position: absolute;
+    top: 12%;
+    right: 1%;
+}
+
+.botao-login{
+    background-color: #52057b; /* Green */
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.botao-login a{
+    color: #fff;
 }
