@@ -101,9 +101,24 @@ h1{
     }
 
     #login-botao{
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    header .botao{
+        
+        padding-top: 10px;
+        height: 5vh;
+        padding-left: 12px;
         padding-bottom: 10px;
-        bottom: 200px;
+        display: flex;
+        float: right;
+        flex-wrap: wrap;
+        
+    }
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
     }
     
 }
@@ -252,7 +267,7 @@ header{
         text-align: center;
         margin-inline: 2px;
         line-height: 10px;
-        font-size: 12px;
+        font-size: 15px;
         padding: 3px;
     
     }
@@ -605,10 +620,20 @@ hr{
 
 /* botão login */
 
+.botao{
+    display: flex;
+    flex: right;
+}
+
 #login-botao{
-    position: absolute;
+    /*position: absolute;
     top: 12%;
-    right: 1%;
+    right: 3%;  */
+    display: inline;
+    float: inline-end;
+    max-width: 30%;
+    min-width: 100px;
+    min-height: 40px;
 }
 
 .botao-login{
